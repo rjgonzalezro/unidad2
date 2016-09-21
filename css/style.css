@@ -53,52 +53,50 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: red;
-border-radius: 10px;
-
+background: #006680;
 }
 ul{
-margin: auto;
+margin-left: 120px;
 padding-top: 4px;
+
 }
 
 li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	/*background: black;*/
 	margin: 3px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px white inset; 
+	/*box-shadow: 0 0 10px white inset; */
 
 }
 
 section{
 	width: 700px;
-	background: #006680;
+	background: #e8e8e8;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 aside{
 
-	width: 280px;
-	background: white;
+	width: 290px;
+	background: #e8e8e8;
 	height: 600px;
 	float: left;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-top: 20px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: #e7b200;
 float: left;
 margin-top: 20px;
-border-radius: 10px;
+/*border-radius: 10px;*/
 margin-bottom: 20px;
 }
 
@@ -119,9 +117,21 @@ p{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
+.menu:link{
+	color: white; 
+	text-decoration: none;}
+
+
 .menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:hover{
+	color: white; 
+	text-decoration: none; 
+	/*text-shadow: 0 0 5px #e7b200;*/
+	background: #e7b200;
+	padding: 10px;
+	}
+
+}
 .menu:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/
