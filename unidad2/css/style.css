@@ -1,0 +1,205 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body{
+/*background-image: url(../img/fondo.jpg);*/
+/*background-color: #b3b3b3;*/
+background-color: #e8e8e8;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: white;
+margin-left: 10px;
+font-size: 60px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Indie Flower', cursive;
+color: white;
+margin-left: 10px;
+font-size: 20px;
+text-align: left; 
+}
+
+h3{
+font-family: 'Shadows Into Light', cursive;
+color: white;
+font-size: 30px;
+text-align: center; 
+}
+
+h4{
+font-family: 'Libre Franklin';
+color: white;
+font-size: 30px;
+text-align: center; 
+}
+
+header{
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: #006680;
+}
+ul{
+margin-left: 120px;
+padding-top: 4px;
+
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	/*background: black;*/
+	margin: 3px;
+	/*box-shadow: 0 0 10px white inset; */
+
+}
+
+section{
+	width: 700px;
+	background: #b3b3b3;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	/*border-radius: 10px;*/
+}
+aside{
+
+	width: 290px;
+	background: #b3b3b3;
+	height: 600px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	/*border-radius: 10px;*/
+}
+
+footer{
+width: 1000px;
+height: 150px;
+background: #f2b711;
+float: left;
+margin-top: 20px;
+/*border-radius: 10px;*/
+margin-bottom: 20px;
+}
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+	font-family: 'Libre Franklin';
+}
+
+
+button{
+    width: 240px;
+    height: 100px;
+    border: none;
+
+}
+
+button:hover{
+	width: 270px;
+    height: 100px;
+    border: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.rojo{
+	background: #F2B80D;
+}
+
+.azul{
+	background: #FF5900;
+}
+.amarillo{
+	background: #006680;
+}
+
+.marron{
+	background: #333333;
+}
+
+
+
+
+
+
+/*CLASES*/
+
+
+.mySlides {
+	display:none;
+	} /*Clase del banner*/
+
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{
+	color: white; 
+	text-decoration: none;}
+
+
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{
+	color: white; 
+	text-decoration: none; 
+	/*text-shadow: 0 0 5px #e7b200;*/
+	background: #e7b200;
+	padding: 10px;
+	}
+
+}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
