@@ -2,6 +2,8 @@
  font-family: 'Indie Flower', cursive;
 */
 
+
+
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -156,6 +158,12 @@ a{
 
 
 /*CLASES*/
+
+
+.mySlides {
+	display:none;
+	} /*Clase del banner*/
+
 
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
